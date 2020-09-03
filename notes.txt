@@ -1,0 +1,7 @@
+# https://golang.org/doc/code.html
+
+Compile:
+    * go build file_name.go
+
+Execute (typical file execution):
+    * ./file_name
