@@ -33,13 +33,9 @@ func main() {
 }
 
 func age(birthMonth int, birthDay int) int {
-	var age int
-
 	if time.Now().Month() >= time.Month(birthMonth) && time.Now().Day() >= birthDay {
-		age = time.Now().Year() - 1988
-	} else {
-		age = (time.Now().Year() - 1988) - 1
+		return time.Now().Year() - 1988
 	}
 
-	return age
+	return (time.Now().Year() - 1988) - 1
 }
