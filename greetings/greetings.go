@@ -4,8 +4,6 @@ package greetings
 Export functions by beginning the function name with a capital letter.
 
 Go executes init functions automatically at program startup, after global variables have been initialized.
-
-Left off here: https://golang.org/doc/tutorial/greetings-multiple-people
 */
 
 import (
